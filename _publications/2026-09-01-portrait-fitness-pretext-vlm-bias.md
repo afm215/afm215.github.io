@@ -6,7 +6,6 @@ permalink: /publication/2026-09-01-portrait-fitness-pretext-vlm-bias
 excerpt: "Auditing 16 frontier and open-weight Vision-Language Models on BALPortraits (9,000 fictional portraits across 24 ethnicity-gender-age segments) using an indirect advertising-casting pretext."
 date: 2026-09-01
 venue: "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2027)"
-paperurl: "/files/BALportrait.pdf"
 bibtexurl: "/files/publications.bib"
 citation: "Fournier-Montgieux, A., Le Borgne, H., Popescu, A., &amp; Luvison, B. (2027). &quot;Portrait Fitness as a Pretext: Probing Implicit Demographic Bias in VLMs.&quot; <i>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2027)</i>."
 ---
@@ -17,7 +16,7 @@ citation: "Fournier-Montgieux, A., Le Borgne, H., Popescu, A., &amp; Luvison, B.
 **Venue:** IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2027)  
 
 <p>
-  <a href="{{ base_path }}/files/BALportrait.pdf" class="btn btn--primary">Download PDF</a>
+  <span class="btn btn--primary btn--disabled">PDF Coming Soon</span>
   <a href="{{ base_path }}/files/publications.bib" class="btn btn--inverse">Download BibTeX</a>
 </p>
 

@@ -6,11 +6,11 @@ collection: portfolio
 
 {% include base_path %}
 
-> **Release status:** the BALPortraits dataset is being prepared for public release. The download link will be added here once it is available. In the meantime, see the WACV 2027 paper.
+> **Release status:** the BALPortraits dataset is being prepared for public release. The dataset download link and the paper PDF will be added here once they are available.
 
 <p>
   <a href="{{ base_path }}/publication/2026-09-01-portrait-fitness-pretext-vlm-bias" class="btn btn--primary">Paper Details</a>
-  <a href="{{ base_path }}/files/BALportrait.pdf" class="btn btn--info">Download PDF</a>
+  <span class="btn btn--info btn--disabled">PDF Coming Soon</span>
 </p>
 
 * **Dataset Content:** **9,000 fictional portraits** evenly balanced across 24 intersectional ethnicity $$\times$$ gender $$\times$$ age segments, with rich facial appearance annotations.

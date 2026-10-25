@@ -6,7 +6,6 @@ permalink: /publication/2025-10-20-redi-face-demographic-inference
 excerpt: "Theoretical proof of how demographic annotator error biases fairness audits, coupled with the IPF-balanced WEG dataset and REGI-Face (vMF + RBF-SVM transfer learning annotator)."
 date: 2025-10-20
 venue: "arXiv preprint arXiv:2510.20482 (and companion paper Reliable Face Ethnicity and Gender Inference)"
-paperurl: "/files/REDI_FACE.pdf"
 bibtexurl: "/files/publications.bib"
 citation: "Fournier-Montgieux, A., Le Borgne, H., Popescu, A., &amp; Luvison, B. (2025). &quot;Reliable and Reproducible Demographic Inference for Fairness in Face Analysis.&quot; <i>arXiv:2510.20482</i>."
 ---
@@ -18,8 +17,8 @@ citation: "Fournier-Montgieux, A., Le Borgne, H., Popescu, A., &amp; Luvison, B.
 
 <p>
   <a href="https://arxiv.org/abs/2510.20482" class="btn btn--primary">arXiv:2510.20482</a>
-  <a href="{{ base_path }}/files/REDI_FACE.pdf" class="btn btn--info">Download REDI-Face PDF</a>
-  <a href="{{ base_path }}/files/REGI_Face__WACV_2026.pdf" class="btn btn--info">Download REGI-Face PDF</a>
+  <span class="btn btn--info btn--disabled">REDI-Face PDF Coming Soon</span>
+  <span class="btn btn--info btn--disabled">REGI-Face PDF Coming Soon</span>
 </p>
 
 ## Abstract

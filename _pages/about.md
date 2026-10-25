@@ -45,7 +45,7 @@ My research turns deep generative and representation-learning models into reliab
 
 1. **Portrait Fitness as a Pretext: Probing Implicit Demographic Bias in VLMs**  
    **A. Fournier-Montgieux**, H. Le Borgne, A. Popescu, B. Luvison — *IEEE/CVF WACV 2027*  
-   [[PDF]({{ base_path }}/files/BALportrait.pdf)] [[Details]({{ base_path }}/publication/2026-09-01-portrait-fitness-pretext-vlm-bias)]
+   [PDF *coming soon*] [[Details]({{ base_path }}/publication/2026-09-01-portrait-fitness-pretext-vlm-bias)]
 2. **Diff-CA: Separating Common and Salient Factors with Diffusion Models**  
    M. Soumm, **A. Fournier-Montgieux**, Y. He, P. Gori, A. Newson — *NeurIPS 2026 (Spotlight)*  
    [[arXiv](https://arxiv.org/abs/2606.06120)] [[Details]({{ base_path }}/publication/2026-06-06-diff-ca-diffusion-models)]
@@ -57,7 +57,7 @@ My research turns deep generative and representation-learning models into reliab
    [[CVF OpenAccess](https://openaccess.thecvf.com/content/WACV2026/papers/Lahlali_MVAT_Multi-View_Aware_Teacher_for_Weakly_Supervised_3D_Object_Detection_WACV_2026_paper.pdf)] [[PDF]({{ base_path }}/files/MVAT.pdf)] [[Details]({{ base_path }}/publication/2026-03-01-mvat-weakly-supervised-3d-detection)]
 5. **Reliable and Reproducible Demographic Inference for Fairness in Face Analysis (REDI-Face & REGI-Face)**  
    **A. Fournier-Montgieux**, H. Le Borgne, A. Popescu, B. Luvison — *arXiv 2025 / Under Review*  
-   [[arXiv](https://arxiv.org/abs/2510.20482)] [[REDI PDF]({{ base_path }}/files/REDI_FACE.pdf)] [[REGI PDF]({{ base_path }}/files/REGI_Face__WACV_2026.pdf)] [[Details]({{ base_path }}/publication/2025-10-20-redi-face-demographic-inference)]
+   [[arXiv](https://arxiv.org/abs/2510.20482)] [REDI & REGI PDFs *coming soon*] [[Details]({{ base_path }}/publication/2025-10-20-redi-face-demographic-inference)]
 6. **Fairer Analysis and Demographically Balanced Face Generation for Fairer Face Verification**  
    **A. Fournier-Montgieux**\*, M. Soumm\*, A. Popescu, B. Luvison, H. Le Borgne — *IEEE/CVF WACV 2025*  
    [[CVF OpenAccess](https://openaccess.thecvf.com/content/WACV2025/html/Fournier-Montgieux_Fairer_Analysis_and_Demographically_Balanced_Face_Generation_for_Fairer_Face_WACV_2025_paper.html)] [[PDF]({{ base_path }}/files/fairer_analysis_face.pdf)] [[FaVGen Code](https://github.com/CEA-LIST/FaVGen)] [[FaVFA Code](https://github.com/CEA-LIST/FaVFA)] [[Details]({{ base_path }}/publication/2025-02-28-fairer-analysis-face-verification)]
