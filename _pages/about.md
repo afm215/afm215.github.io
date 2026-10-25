@@ -1,56 +1,64 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Alexandre Fournier Montgieux"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+{% include base_path %}
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I am a **Doctoral Researcher in Machine Learning & Computer Vision** at **[Université Paris-Saclay](https://www.universite-paris-saclay.fr/)** and **[CEA LIST (Nano-INNOV)](https://list.cea.fr/en/)** in Palaiseau, France, working with Adrian Popescu, Hervé Le Borgne, and Bertrand Luvison. I hold an **MSc in Mathematics, Vision, and Learning (MVA)** from **ENS Paris-Saclay** (*Très Bien* / Highest Honors) and an **Engineering Degree (Diplôme d'Ingénieur)** from **Télécom Paris** (GPA 4.0/4.0).
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+My research turns deep generative and representation-learning models into reliable, fair, and reproducible systems for real-world visual and multimodal pipelines. I enjoy the full arc of machine learning research—from mathematical formulation and theoretical guarantees to distributed training at scale on national supercomputers (Jean Zay, Adastra, Factory-IA) and releasing open-source toolkits.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<p>
+  <a href="{{ base_path }}/files/CV_Alexandre_Fournier_Montgieux_2p.pdf" class="btn btn--primary"><i class="fa fa-file-pdf" aria-hidden="true"></i> Download CV (2-Page PDF)</a>
+  <a href="{{ base_path }}/files/CV_Alexandre_Fournier_Montgieux_1p.pdf" class="btn btn--info"><i class="fa fa-file-alt" aria-hidden="true"></i> Short Resume (1-Page PDF)</a>
+  <a href="{{ base_path }}/thesis/" class="btn btn--inverse"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Explore PhD Thesis</a>
+</p>
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+---
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+## Research Themes
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+* **Generative & Diffusion Models for Synthetic Data:** Controlled face synthesis via diffusion models and GANs (**FaVGen**, **BALPortraits**), latent trajectory morphing for identity anonymization (DiffMorpher), and continuous flow-matching diffusion models to disentangle common vs. salient visual factors (**Diff-CA**, *NeurIPS 2026 Spotlight*).
+* **Statistical & Latent-Space Auditing of AI Fairness:** Moving beyond threshold-fragile scalar fairness metrics by combining logistic/OLS **Average Marginal Effects (AME)**, **SIMEX measurement-error correction**, and **ANOVA on hyperspherical latent spaces** (**FaVFA**, APP-registered software deposit).
+* **Reliable & Frugal Demographic Inference:** Theoretical characterization of how annotator noise biases fairness estimators, web-scale dataset curation via **Iterative Proportional Fitting (IPF)** on WebFace42M (**WEG**), and transfer learning on **von Mises-Fisher (vMF)** face representations (**REGI-Face**, integrated in the European Vanguard Project).
+* **Cross-Domain Bias & Robustness:** Probing implicit intersectional stereotypes in **16 Vision-Language Models (VLMs)** via indirect casting pretexts (*WACV 2027*), temporal multi-view teacher-student distillation for **weakly supervised 3D object detection** (**MVAT**, *WACV 2026*), and information-theoretic **User Coherence** in large-scale recommender systems (*WWW 2026*).
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+---
 
-**Markdown generator**
+## News & Highlights
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+* **2026 — WACV 2027 Accepted:** *"Portrait Fitness as a Pretext: Probing Implicit Demographic Bias in VLMs"* (introducing the 9,000-portrait **BALPortraits** benchmark and auditing 16 VLMs).
+* **2026 — NeurIPS 2026 Spotlight & Top Reviewer:** *"Diff-CA: Separating Common and Salient Factors with Diffusion Models"* accepted as a **Spotlight** at NeurIPS 2026; recognized as a **NeurIPS 2026 Top Reviewer**.
+* **2026 — European Vanguard Integration:** **REGI-Face Toolkit** packaged and integrated into the European Vanguard project for high-throughput, frugal demographic analysis.
+* **2026 — WWW 2026 Accepted:** *"Quantifying User Coherence: A Unified Framework for Analyzing Recommender Systems Across Domains"* published in the Proceedings of the ACM Web Conference 2026.
+* **2026 — WACV 2026 Accepted:** *"MVAT: Multi-View Aware Teacher for Weakly Supervised 3D Object Detection"* published at IEEE/CVF WACV 2026.
+* **2025 — WACV 2025 & APP Deposit:** *"Fairer Analysis and Demographically Balanced Face Generation for Fairer Face Verification"* published at IEEE/CVF WACV 2025; **FaVFA** officially registered with the *Agence pour la Protection des Programmes* (`IDDN.FR.001.160022.000.S.P.2025.000.31235`).
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+---
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+## Selected Publications
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+1. **Portrait Fitness as a Pretext: Probing Implicit Demographic Bias in VLMs**  
+   **A. Fournier-Montgieux**, H. Le Borgne, A. Popescu, B. Luvison — *IEEE/CVF WACV 2027*  
+   [[PDF]({{ base_path }}/files/BALportrait.pdf)] [[Details]({{ base_path }}/publication/2026-09-01-portrait-fitness-pretext-vlm-bias)]
+2. **Diff-CA: Separating Common and Salient Factors with Diffusion Models**  
+   M. Soumm, **A. Fournier-Montgieux**, Y. He, P. Gori, A. Newson — *NeurIPS 2026 (Spotlight)*  
+   [[arXiv](https://arxiv.org/abs/2606.06120)] [[Details]({{ base_path }}/publication/2026-06-06-diff-ca-diffusion-models)]
+3. **Quantifying User Coherence: A Unified Framework for Analyzing Recommender Systems Across Domains**  
+   M. Soumm\*, **A. Fournier-Montgieux**\*, A. Popescu, B. Delezoide — *ACM Web Conference (WWW) 2026*  
+   [[ACM DOI](https://dl.acm.org/doi/10.1145/3774904.3792563)] [[PDF]({{ base_path }}/files/Quantifying.pdf)] [[Details]({{ base_path }}/publication/2026-04-13-quantifying-user-coherence)]
+4. **MVAT: Multi-View Aware Teacher for Weakly Supervised 3D Object Detection**  
+   S. Lahlali, **A. Fournier-Montgieux**, N. Granger, H. Le Borgne, Q.-C. Pham — *IEEE/CVF WACV 2026*  
+   [[CVF OpenAccess](https://openaccess.thecvf.com/content/WACV2026/papers/Lahlali_MVAT_Multi-View_Aware_Teacher_for_Weakly_Supervised_3D_Object_Detection_WACV_2026_paper.pdf)] [[PDF]({{ base_path }}/files/MVAT.pdf)] [[Details]({{ base_path }}/publication/2026-03-01-mvat-weakly-supervised-3d-detection)]
+5. **Reliable and Reproducible Demographic Inference for Fairness in Face Analysis (REDI-Face & REGI-Face)**  
+   **A. Fournier-Montgieux**, H. Le Borgne, A. Popescu, B. Luvison — *arXiv 2025 / Under Review*  
+   [[arXiv](https://arxiv.org/abs/2510.20482)] [[REDI PDF]({{ base_path }}/files/REDI_FACE.pdf)] [[REGI PDF]({{ base_path }}/files/REGI_Face__WACV_2026.pdf)] [[Details]({{ base_path }}/publication/2025-10-20-redi-face-demographic-inference)]
+6. **Fairer Analysis and Demographically Balanced Face Generation for Fairer Face Verification**  
+   **A. Fournier-Montgieux**\*, M. Soumm\*, A. Popescu, B. Luvison, H. Le Borgne — *IEEE/CVF WACV 2025*  
+   [[CVF OpenAccess](https://openaccess.thecvf.com/content/WACV2025/html/Fournier-Montgieux_Fairer_Analysis_and_Demographically_Balanced_Face_Generation_for_Fairer_Face_WACV_2025_paper.html)] [[PDF]({{ base_path }}/files/fairer_analysis_face.pdf)] [[FaVGen Code](https://github.com/CEA-LIST/FaVGen)] [[FaVFA Code](https://github.com/CEA-LIST/FaVFA)] [[Details]({{ base_path }}/publication/2025-02-28-fairer-analysis-face-verification)]
+

@@ -153,13 +153,55 @@
     height: auto;
   }
 
-  img {
+  .author__avatar-stage {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
     max-width: 175px;
     border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
 
     @include breakpoint($large) {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1 / 1;
       padding: 5px;
       border: 1px solid var(--global-border-color);
+      box-sizing: border-box;
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--global-link-color);
+      outline-offset: 2px;
+    }
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 175px;
+    border-radius: 50%;
+  }
+
+  .vmf-avatar-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 2;
+
+    @include breakpoint($large) {
+      top: 5px;
+      left: 5px;
+      width: calc(100% - 10px);
+      height: calc(100% - 10px);
     }
   }
 }

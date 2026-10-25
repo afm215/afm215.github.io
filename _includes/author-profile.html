@@ -7,11 +7,14 @@
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
-    {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
-    {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
-    {% endif %}
+    <div class="author__avatar-stage" data-base-path="{{ base_path }}" title="Click to replay 3D vMF hypersphere animation" role="button" tabindex="0" aria-label="Profile picture of {{ author.name }} (click to replay 3D vMF hypersphere animation)">
+      {% if author.avatar contains "://" %}
+        <img src="{{ author.avatar }}" alt="{{ author.name }}" fetchpriority="high" />
+      {% else %}
+        <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}" fetchpriority="high" />
+      {% endif %}
+      <canvas class="vmf-avatar-canvas" aria-hidden="true"></canvas>
+    </div>
   </div>
 
   <div class="author__content">
