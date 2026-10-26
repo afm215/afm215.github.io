@@ -13,6 +13,8 @@ I am a **Doctoral Researcher in Machine Learning & Computer Vision** at **[Unive
 
 My research turns deep generative and representation-learning models into reliable, fair, and reproducible systems for real-world visual and multimodal pipelines. I enjoy the full arc of machine learning research—from mathematical formulation and theoretical guarantees to distributed training at scale on national supercomputers (Jean Zay, Adastra, Factory-IA) and releasing open-source toolkits.
 
+Alongside my research, I have been the **Referent Teacher (Lead Instructor)** for **[Advanced Deep Learning & Computer Vision]({{ base_path }}/teaching/2024-centralesupelec-bdma-deep-learning)** in the **Master BDMA (M2) at CentraleSupélec** for two years (2024–2026), writing the lectures and running the exams.
+
 <p>
   <a href="{{ base_path }}/files/CV_Alexandre_Fournier_Montgieux_2p.pdf" class="btn btn--primary"><i class="fa fa-file-pdf" aria-hidden="true"></i> Download CV (2-Page PDF)</a>
   <a href="{{ base_path }}/files/CV_Alexandre_Fournier_Montgieux_1p.pdf" class="btn btn--info"><i class="fa fa-file-alt" aria-hidden="true"></i> Short Resume (1-Page PDF)</a>
